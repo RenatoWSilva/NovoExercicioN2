@@ -12,7 +12,7 @@ public class RetrofitConfig {
 
     public RetrofitConfig() {
         this.retrofit = new Retrofit.Builder()
-                .baseUrl("http://ws.matheuscastiglioni.com.br/ws/")
+                .baseUrl("https://goo.gl/YHHg6x")
                 .addConverterFactory(JacksonConverterFactory.create())
                 .build();
     }
